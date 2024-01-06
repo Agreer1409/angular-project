@@ -1,0 +1,45 @@
+.header-bar{
+  margin: 0;
+  background-color: #0e416c;
+  position:fixed;
+  top:0;
+  width: 100%;
+  height: 85px
+}
+
+#logo{
+  position:relative;
+  top: 40px; // WIll NEED TO CHANGE FOR PHONE SCALING
+  left: 20px;
+}
+
+.User-Icon{
+
+  font-family: "Lucida Console";
+
+  position:relative;
+  right:15px;
+  bottom: -5px;
+
+  float:right;
+
+  display: block;
+  height: 30px;
+  width: 30px;
+  line-height: 32px;
+
+  border-radius: 15px;
+
+  background-color: #FFFFFF;
+  color: #252A2E;
+  text-align: center;
+  font-size: 15px;
+}
+
+.Help-Icon{
+  float: right;
+  position: relative;
+  right: 30px;
+  top: 12px;
+
+}
