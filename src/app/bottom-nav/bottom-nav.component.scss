@@ -1,8 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+
 .bottom-bar{
   margin: 0;
   background-color: #0e416c;
   position:fixed;
   bottom:0;
   width: 100%;
-  height: 75px
+  height: 90px; // may need to move this up more to avoid iphone bar at the bottom
+}
+
+#project-icon{
+  position:relative;
+  left: 30px;
+  top: 2px;
+  width: 40px;
+  height:40px;
+}
+
+.project-icon-label{
+  position:relative;
+  bottom:2px;
+  left:20px;
+  color: #217CBB;
+  font-family: "Open Sans";
+  font-weight: 600;
+}
+
+#search-icon{
+  position:relative;
+  bottom: 60px;
+  left: 125px;
+  height: 38px;
+  width: 38px;
+}
+
+.search-icon-label{
+  position:relative;
+  bottom: 65px;
+  left: 120px;
+  color:#FFFFFF;
+  font-family: "Open Sans";
+  font-weight: normal;
+}
+
+#purchasing-icon{
+  float:right;
+  position: relative;
+  bottom: 128px;
+  right: 115px;
+  height: 48px;
+  width: 48px;
+}
+
+.purchasing-icon-label{
+  float:right;
+  position:relative;
+  bottom: 87px;
+  right: 30px;
+  color:#FFFFFF;
+  font-family: "Open Sans";
+  font-weight: normal;
+  font-size: 15px;
+}
+
+#hamburger-icon{
+  float:right;
+  position:relative;
+  bottom: 125px;
+  right: -145px;
+  height: 40px;
+  width: 40px;
 }
