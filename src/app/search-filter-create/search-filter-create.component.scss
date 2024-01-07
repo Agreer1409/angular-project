@@ -21,7 +21,7 @@
   background-image: url("/assets/MagnifyingGlassBase-Search.png");
   background-position: 6px 9px;
   background-repeat: no-repeat;
-  padding: 5px 0px 18px 30px;
+  padding: 5px 0px 18px 35px;
 }
 
 ::placeholder{
@@ -30,5 +30,58 @@
   left: 14px;
   font-size: 16px;
   font-family: "Open Sans";
+}
+
+// sort button code (its ass)
+.sort-button{
+  position:relative;
+  top:-33px;
+  left: 210px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.box1{
+  width: 40px;
+  height: 6px;
+  background-color: #ffffff;
+  border:solid;
+  border-width: 1px;
+}
+.box2{
+  position:relative;
+  top: 2px;
+  width: 30px;
+  height: 6px;
+  background-color: #fff;
+  border: solid;
+  border-width: 1px;
+}
+.box3{
+  position:relative;
+  top: 4px;
+  width: 20px;
+  height: 6px;
+  background-color: #fff;
+  border:solid;
+  border-width:1px;
+}
+
+.create-project-button{
+  height: 40px;
+  width: 118px;
+  position: relative;
+  bottom: 63px;
+  left: 260px;
+  background-color:#217CBB;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: "Open Sans";
+  color: #FFFFFF;
 }
 
