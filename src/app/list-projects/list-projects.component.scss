@@ -1,0 +1,51 @@
+.projects{
+  display: block;
+  background-color: #ffffff;
+  border:none;
+  border-radius: 10px;
+  font-family: "Open Sans";
+  height: 180px;
+}
+
+.project-title{
+  position: relative;
+  top: 3px;
+  left: 20px;
+  font-size: 22px;
+}
+
+.start-date-tag{
+  position:relative;
+  left: 20px;
+}
+
+.start-date{
+  position:relative;
+  bottom: 15px;
+  left:20px;
+}
+
+.last-modified-tag{
+  position:relative;
+  bottom: 76px;
+  left: 220px;
+}
+
+.last-modified{
+  position: relative;
+  bottom: 91px;
+  left:220px;
+}
+
+.owner-tag{
+  position:relative;
+  bottom: 80px;
+  left: 20px;
+}
+
+.owner{
+  position:relative;
+  bottom:95px;
+  left:20px;
+}
+
