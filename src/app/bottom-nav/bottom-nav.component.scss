@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
-
+@media screen and (max-width: 390px){
 .bottom-bar{
   margin: 0;
   background-color: #0e416c;
@@ -70,4 +70,5 @@
   right: -145px;
   height: 40px;
   width: 40px;
+}
 }
