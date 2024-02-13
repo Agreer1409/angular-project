@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
-
+@media screen and (max-width: 390px){
 .search-filter-create-bar{
   background-color: #C7C7Cb;
   position:sticky;
   top:85px;
   height: 55px;
+  z-index: 99;
 }
 
 
@@ -84,4 +85,4 @@
   font-family: "Open Sans";
   color: #FFFFFF;
 }
-
+}
